@@ -9,10 +9,7 @@ function App() {
 
       <div>
         <RandomWordForm />
-        <div className="border my-4"></div>
         <InputForm />
-        <div className="border my-4"></div>
-        <div className="border my-4"></div>
       </div>
     </div>
   );
