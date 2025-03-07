@@ -127,9 +127,9 @@ export function InputForm() {
           )}
         />
         <p>
-          <span className={wordColors[0]}>{verbDate[0] || "verb1"}</span>{" "}
-          <span className={wordColors[1]}>{verbDate[1] || "verb2"}</span>{" "}
-          <span className={wordColors[2]}>{verbDate[2] || "verb3"}</span>
+          <span className={wordColors[0]}>{verbDate[0] || "click"}</span>{" "}
+          <span className={wordColors[1]}>{verbDate[1] || "button"}</span>{" "}
+          <span className={wordColors[2]}>{verbDate[2] || "Acak"}</span>
         </p>
         <Button type="submit">Submit</Button>
       </form>
